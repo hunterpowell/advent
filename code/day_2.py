@@ -2,12 +2,13 @@ import re
 import math
 
 
-with open("day2\day2.txt") as file:
-    lines = file.read()
 
 
-def Part1(lines):
+def day_2_part_1():
     
+    with open("data\day_2.txt") as file:
+        lines = file.read()
+   
     total = 0
     valid = {'red': 12,
             'green': 13,
@@ -26,7 +27,10 @@ def Part1(lines):
     
     return total
 
-def Part2(lines):
+def day_2_part_2():
+
+    with open("data\day_2.txt") as file:
+        lines = file.read()
 
     total = 0
 
@@ -41,5 +45,3 @@ def Part2(lines):
         total += math.prod(max_number.values())
     return total
         
-print("Part 1: ", Part1(lines))
-print("Part 2: ", Part2(lines))
