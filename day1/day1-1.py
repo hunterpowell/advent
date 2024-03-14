@@ -18,6 +18,7 @@ valid_num = {"one":"o1e",
              "nine":"n9e",
              }
 
+# yeah
 sum = 0
 new_lines = []
 
