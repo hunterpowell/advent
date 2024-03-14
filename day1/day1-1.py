@@ -19,6 +19,7 @@ valid_num = {"one":"o1e",
              }
 
 # yeah
+# from day 3!!!!
 sum = 0
 new_lines = []
 
