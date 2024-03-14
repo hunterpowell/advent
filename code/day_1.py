@@ -19,8 +19,6 @@ def print_day_1():
                 "nine":"n9e",
                 }
 
-    # yeah
-    # from day 3!!!!
     sum = 0
     new_lines = []
 
@@ -47,6 +45,6 @@ def print_day_1():
         tmp1 *= 10
         sum += (tmp1 + tmp2)
 
-    print("sum = ", sum)
+    print("Part 1 sum = ", sum)
 
     input.close()
