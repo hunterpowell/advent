@@ -45,6 +45,6 @@ def print_day_1():
         tmp1 *= 10
         sum += (tmp1 + tmp2)
 
-    print("Part 1 sum = ", sum)
+    print("Day 1 part 1: ", sum)
 
     input.close()
