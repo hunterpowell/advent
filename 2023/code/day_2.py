@@ -6,7 +6,7 @@ import math
 
 def day_2_part_1():
     
-    with open("data\day_2.txt") as file:
+    with open("data/day_2.txt") as file:
         lines = file.read()
    
     total = 0
